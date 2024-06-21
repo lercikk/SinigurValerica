@@ -9,6 +9,6 @@ class GuestController extends Controller
 {
     public function index():View
     {
-        return view('index');
+        return view('guest.index');
     }
 }
